@@ -13,6 +13,8 @@ from aiocoap import *
 str_data = '60416802602A43414530303030313130D2F407D1'
 #str_data = '6041680660D2F607D1'
 
+
+
 def info_print():
     """coap unpack print coap info vesion msgtype code msgid token remote opt payload"""
     bytes_data = bytes().fromhex(str_data)
